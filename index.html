@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <link rel="icon" type="image/svg+xml" href="kuromi-cricut.png">
+  
+  <meta charset="UTF-8" />
+  <title>إلى سمية 💜</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+  /* حط هذا الكود في بداية الـ style قبل باقي التنسيقات */
+
+  /* arabic */
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/amiri/v30/J7aRnpd8CGxBHpUrtLMA7w.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/amiri/v30/J7aRnpd8CGxBHpUgtLMA7w.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/amiri/v30/J7aRnpd8CGxBHpUutLM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* arabic bold */
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/amiri/v30/J7acnpd8CGxBHp2VkaY6zp5yGw.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+  }
+  /* latin-ext bold */
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/amiri/v30/J7acnpd8CGxBHp2VkaYxzp5yGw.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin bold */
+  @font-face {
+    font-family: 'Amiri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/amiri/v30/J7acnpd8CGxBHp2VkaY_zp4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+    /* ====== الخط الجديد PixelAE ====== */
+    @font-face {
+      font-family: "PixelAE";
+      src: url("fonts/PixelAE-Regular.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+    }
+
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "PixelAE", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #ff9fd8, #5b2a86 40%, #140020);
+      min-height: 100vh;
+      color: #fff;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* خلفية القلوب (canvas) */
+    #heart-canvas {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .overlay {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 12px 120px;
+      backdrop-filter: blur(4px);
+    }
+
+    .card {
+      max-width: 720px;
+      width: 100%;
+      background: rgba(20, 0, 32, 0.70);
+      border-radius: 24px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
+      padding: 24px 20px 20px;
+      border: 1px solid rgba(255, 193, 255, 0.3);
+    }
+
+    .card-header {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      margin-bottom: 6px;
+    }
+
+    .title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fdd8ff;
+      text-shadow: 0 0 12px rgba(255, 157, 255, 0.9);
+      letter-spacing: 1px;
+    }
+
+    .heart-divider {
+      margin: 12px auto 4px;
+      width: 80px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #ffb4f0, transparent);
+      position: relative;
+    }
+
+    .heart-divider::after {
+      content: "❤";
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.1rem;
+      color: #ffb4f0;
+      text-shadow: 0 0 8px rgba(255, 180, 240, 0.8);
+    }
+
+    .poem {
+    margin-top: 10px;
+    line-height: 2.2;
+    font-size: 1.2rem;
+    text-align: center;
+    white-space: pre-line;
+    font-family: 'Amiri', serif; /* هنا السحر */
+    font-weight: 700;
+    }
+
+
+    .note {
+      margin-top: 14px;
+      font-size: 0.85rem;
+      opacity: 0.75;
+      text-align: center;
+    }
+
+    .music-section {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px dashed rgba(255, 190, 255, 0.3);
+    }
+
+    .music-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .music-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      opacity: 0.9;
+    }
+
+    .play-btn {
+      border: none;
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 0.88rem;
+      cursor: pointer;
+      background: linear-gradient(135deg, #ff9fd8, #ff6fb5);
+      color: #2b003e;
+      font-family: "PixelAE", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+
+    .play-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.55);
+    }
+
+    .playlist {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 0.9rem;
+    }
+
+    .track {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
+    }
+
+    .track:hover {
+      background: rgba(255, 255, 255, 0.10);
+      transform: translateY(-1px);
+    }
+
+    .track.active {
+      border-color: rgba(255, 187, 255, 0.8);
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .track-main {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .track-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .track-artist {
+      font-size: 0.78rem;
+      opacity: 0.78;
+    }
+
+    .track-tag {
+      font-size: 0.72rem;
+      opacity: 0.85;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .cute-row {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+      font-size: 0.82rem;
+      opacity: 0.9;
+    }
+
+    .music-status {
+  background: rgba(10, 0, 20, 0.85);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 193, 255, 0.4);
+  padding: 6px 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.music-status-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+
+#status-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#status-time {
+  font-family: monospace;
+  opacity: 0.85;
+}
+
+.music-status-bar {
+  position: relative;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  direction: ltr; /* الحل السحري */
+}
+
+
+.music-status-fill {
+  position: absolute;
+  left: 0; /* مهم جداً */
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  background: linear-gradient(90deg, #ff9fd8, #b06aff, #ff8be6);
+  box-shadow: 0 0 8px rgba(255, 140, 220, 0.8);
+  transition: width 0.08s linear;
+}
+
+
+
+    .sticker {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .sticker img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 6px;
+    }
+
+    footer {
+    position: fixed;
+    inset-inline: 0;
+    bottom: 0;
+    z-index: 3;
+    padding: 4px 10px 8px;
+    font-size: 0.78rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    pointer-events: none;
+    }
+
+    footer .music-status {
+    pointer-events: auto;
+    }
+
+
+    footer .footer-inner {
+      pointer-events: auto;
+      background: rgba(10, 0, 20, 0.75);
+      padding: 6px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 193, 255, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    footer .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: #ff9fd8;
+      box-shadow: 0 0 8px rgba(255, 159, 216, 0.9);
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 18px 14px 14px;
+        border-radius: 18px;
+      }
+      .title {
+        font-size: 1.6rem;
+      }
+      .poem {
+        font-size: 0.98rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="heart-canvas"></canvas>
+
+  <div class="overlay">
+    <main class="card">
+      <header class="card-header">
+        <div class="subtitle">موقع صغير… لكن قلبه كله لكِ 💌</div>
+        <h1 class="title">إلى سمية</h1>
+        <div class="heart-divider"></div>
+      </header>
+
+      <!-- القصيدة -->
+      <section class="poem">
+        أَمِن سُهَيَّةَ دَمعُ العَينِ تَذريفُ
+        لَو أَنَّ ذا مِنكِ قَبلَ اليَومِ مَعروفُ
+        كَأَنَّها يَومَ صَدَّت ما تُكَلِّمُني
+        ظَبيٌ بِعُسفانَ ساجي الطَرفِ مَطروفُ
+
+
+        أَلا يا مَن لِقَلبِي بِالحُبِّ سَلوى
+        وَجَعلتِ الهَوى لِوَجدانِي مَنفوحُ
+        فَإِنّي لَم أَدرِ ما الحُبُّ إِلّا بَعدَكِ
+        وَقَبلَكِ كانَ الهَوى في دَمي مَنفوحُ
+
+
+        </section>
+
+      <p class="note"> 
+     شي صغير ما يوفي بحقج، بس سويته بكل حب 💜
+
+      </p>
+
+      <!-- قسم الموسيقى -->
+      <section class="music-section">
+        <div class="music-header">
+          <div class="music-title">
+            🎧 قائمة أغاني هادئة ترافق قلوب الـ pixel art
+          </div>
+          <button class="play-btn" id="play-toggle">تشغيل / إيقاف</button>
+        </div>
+
+        <div class="playlist" id="playlist"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- مشغّل الموسيقى -->
+  <audio id="bg-audio" loop></audio>
+
+  <footer>
+  <div class="footer-inner">
+    <div class="dot"></div>
+    <span>موقع صغير، لكنّه يقول: "أحبّك يا سمية" بكل اللغات. 💜</span>
+  </div>
+
+  <!-- شريط حالة الأغنية -->
+  <div class="music-status">
+    <div class="music-status-top">
+      <span id="status-title">لا توجد أغنية مشغَّلة حالياً</span>
+      <span id="status-time">0:00 / 0:00</span>
+    </div>
+    <div class="music-status-bar" id="music-progress">
+      <div class="music-status-fill" id="music-fill"></div>
+    </div>
+  </div>
+
+  </footer>
+
+  <script>
+    /********************************
+     * 1) قلوب Pixel Art بالخلفية  *
+     ********************************/
+    const canvas = document.getElementById("heart-canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    resizeCanvas();
+    window.addEventListener("resize", resizeCanvas);
+
+    const HEART_PATTERNS = [
+      [
+        "001100",
+        "011110",
+        "111111",
+        "111111",
+        "011110",
+        "001100"
+      ],
+      [
+        "01100110",
+        "11111111",
+        "11111111",
+        "01111110",
+        "00111100"
+      ],
+      [
+        "00011000",
+        "00111100",
+        "01111110",
+        "11111111",
+        "01111110",
+        "00111100"
+      ]
+    ];
+
+    const hearts = [];
+    const HEART_COUNT = 55;
+
+    function createHeart() {
+      const pattern = HEART_PATTERNS[Math.floor(Math.random() * HEART_PATTERNS.length)];
+      const pixelSize = Math.random() * 4 + 3;
+      const widthInPixels = pattern[0].length * pixelSize;
+
+      return {
+        x: Math.random() * (canvas.width - widthInPixels),
+        y: Math.random() * canvas.height - canvas.height,
+        speedY: Math.random() * 0.6 + 0.3,
+        driftX: (Math.random() - 0.5) * 0.2,
+        pixelSize,
+        pattern,
+        color: Math.random() < 0.5 ? "rgba(255,180,240,0.9)" : "rgba(255,230,255,0.9)"
+      };
+    }
+
+    for (let i = 0; i < HEART_COUNT; i++) {
+      hearts.push(createHeart());
+    }
+
+    function drawHeart(h) {
+      const { pattern, pixelSize, x, y, color } = h;
+      ctx.fillStyle = color;
+      for (let row = 0; row < pattern.length; row++) {
+        for (let col = 0; col < pattern[row].length; col++) {
+          if (pattern[row][col] === "1") {
+            ctx.fillRect(
+              x + col * pixelSize,
+              y + row * pixelSize,
+              pixelSize,
+              pixelSize
+            );
+          }
+        }
+      }
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      for (const h of hearts) {
+        h.y += h.speedY;
+        h.x += h.driftX;
+
+        if (h.y > canvas.height + 20) {
+          const fresh = createHeart();
+          h.x = fresh.x;
+          h.y = -40;
+          h.speedY = fresh.speedY;
+          h.driftX = fresh.driftX;
+          h.pixelSize = fresh.pixelSize;
+          h.pattern = fresh.pattern;
+          h.color = fresh.color;
+        }
+
+        drawHeart(h);
+      }
+
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    /********************************
+     * 2) مشغّل الموسيقى والبلاي ليست *
+     ********************************/
+    const audio = document.getElementById("bg-audio");
+    const playlistContainer = document.getElementById("playlist");
+    const playToggleBtn = document.getElementById("play-toggle");
+    const statusTitle = document.getElementById("status-title");
+    const statusTime  = document.getElementById("status-time");
+    const musicProgress = document.getElementById("music-progress");
+    const musicFill  = document.getElementById("music-fill");
+
+    
+    // غيّر مسارات الملفات حسب ملفاتك
+    const playlist = [
+    {
+        id: "extra",
+        title: "بين ايديا واحسك بعيد",
+        artist: "ماجد المهندس",
+        tag: "رومانسي ",
+        file: "audio/H_Muaed.mp3"
+      },
+      /* آخر اثنين مضافات هنا 👇 */
+      {
+        id: "true_and_fairy",
+        title: "حلم و حقيقة",
+        artist: "ماجد المهندس",
+        tag: "رومانسي ",
+        file: "audio/sGC0LDoM6G0.m4a"
+      },
+
+      {
+        id: "kino",
+        title: "Pack of Cigarettes",
+        artist: "Kino",
+        tag: "روك روسي هادئ",
+        file: "audio/kino_pack_of_cigarettes.mp3"
+      },
+      {
+        id: "died",
+        title: "(I Just) Died in Your Arms",
+        artist: "Cutting Crew",
+        tag: "كلاسيك روك راقي",
+        file: "audio/i_just_died_in_your_arms.mp3"
+      }
+    ];
+    function formatTime(seconds) {
+    if (isNaN(seconds) || !isFinite(seconds)) return "0:00";
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60).toString().padStart(2, "0");
+    return `${m}:${s}`;
+    }
+
+    let currentTrackIndex = 0;
+    let isPlaying = false;
+
+    function renderPlaylist() {
+      playlistContainer.innerHTML = "";
+      playlist.forEach((track, index) => {
+        const item = document.createElement("div");
+        item.className = "track" + (index === currentTrackIndex ? " active" : "");
+        item.dataset.index = index;
+
+        item.innerHTML = `
+          <div class="track-main">
+            <span class="track-title">${track.title}</span>
+            <span class="track-artist">${track.artist}</span>
+          </div>
+          <div class="track-tag">${track.tag}</div>
+        `;
+
+        item.addEventListener("click", () => {
+          setTrack(index, true);
+        });
+
+        playlistContainer.appendChild(item);
+      });
+    }
+
+function setTrack(index, shouldPlay = false) {
+  currentTrackIndex = index;
+  const track = playlist[index];
+  audio.src = track.file;
+
+  // ✅ حدّث عنوان شريط الحالة
+  if (statusTitle) {
+    statusTitle.textContent = `${track.title} — ${track.artist}`;
+  }
+  if (statusTime) {
+    statusTime.textContent = "0:00 / 0:00";
+  }
+  if (musicFill) {
+    musicFill.style.width = "0%";
+  }
+
+  document.querySelectorAll(".track").forEach((el, i) => {
+    el.classList.toggle("active", i === index);
+  });
+
+  if (shouldPlay) {
+    audio.play().then(() => {
+      isPlaying = true;
+    }).catch(() => {});
+  }
+}
+
+audio.addEventListener("timeupdate", () => {
+  if (!audio.duration) return;
+
+  const percent = (audio.currentTime / audio.duration) * 100;
+  if (musicFill) {
+    musicFill.style.width = `${percent}%`;
+  }
+  if (statusTime) {
+    statusTime.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+  }
+});
+
+audio.addEventListener("loadedmetadata", () => {
+  if (statusTime) {
+    statusTime.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+  }
+});
+if (musicProgress) {
+  musicProgress.addEventListener("click", (e) => {
+    if (!audio.duration) return;
+
+    const rect = musicProgress.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const ratio = clickX / rect.width;
+
+    audio.currentTime = ratio * audio.duration;
+  });
+}
+
+    function updatePlayButton() {
+      playToggleBtn.textContent = isPlaying ? "إيقاف مؤقت" : "تشغيل الموسيقى";
+    }
+
+    playToggleBtn.addEventListener("click", () => {
+      if (!audio.src) {
+        setTrack(currentTrackIndex, true);
+        return;
+      }
+
+      if (audio.paused) {
+        audio.play().then(() => {
+          isPlaying = true;
+          updatePlayButton();
+        });
+      } else {
+        audio.pause();
+        isPlaying = false;
+        updatePlayButton();
+      }
+    });
+
+    audio.addEventListener("ended", () => {
+      currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
+      setTrack(currentTrackIndex, true);
+    });
+
+    renderPlaylist();
+    setTrack(0, false);
+    updatePlayButton();
+    document.addEventListener("DOMContentLoaded", () => {
+    // جهز أول تراك
+    setTrack(0, false);
+
+    // اجبر الصوت على صفر (Chrome يسمح بالautoplay فقط بهذا الشرط)
+    audio.volume = 0;
+
+    // حاول التشغيل التلقائي
+    const playPromise = audio.play();
+
+    if (playPromise !== undefined) {
+        playPromise
+            .then(() => {
+                console.log("Autoplay worked!");
+
+                // بعد لحظات قصيرة نرجع الصوت طبيعي
+                setTimeout(() => {
+                    audio.volume = 0.1;
+                }, 1500);
+
+            })
+            .catch(error => {
+                console.log("Autoplay blocked, waiting for user click.");
+
+                // إذا المتصفح منع، نشغّل أول ضغطة للمستخدم
+                const start = () => {
+                    audio.play();
+                    audio.volume = 1;
+                    document.removeEventListener("click", start);
+                };
+
+                document.addEventListener("click", start);
+            });
+    }
+});
+document.addEventListener("DOMContentLoaded", () => {
+    setTrack(0, false);
+
+    // تشغيل بدون صوت مسموح على الهاتف
+    audio.volume = 0;
+    audio.play().catch(() => {});
+
+    // أول تفاعل من المستخدم نرجع الصوت حقيقي
+    const enableSound = () => {
+        audio.volume = 1;
+        document.removeEventListener("touchstart", enableSound);
+        document.removeEventListener("click", enableSound);
+    };
+
+    document.addEventListener("touchstart", enableSound);
+    document.addEventListener("click", enableSound);
+});
+
+  </script>
+</body>
+</html>
